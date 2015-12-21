@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search"/>
+    <item
+        android:id="@+id/action_sort"
+        android:title="Сортировка"
+        android:icon="@drawable/icon_toolbal_sort"
+        app:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/sort_name"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                android:title="Названию"
+                 />
+            <item android:id="@+id/sort_category"
+                android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="Категории"
+            />
+            <item android:id="@+id/sort_date"
+                android:icon="@android:drawable/ic_menu_day"
+                android:title="Дате"
+                />
+        </menu>
+
+    </item>
+
+</menu>

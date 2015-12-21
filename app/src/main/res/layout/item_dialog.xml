@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="60dp"
+    android:orientation="vertical">
+
+
+
+    <TableRow
+        >
+
+        <TextView
+            android:id="@+id/dialogTvHead1"
+            android:background="@drawable/border"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:layout_width="5dp"
+            android:text="ID"></TextView>
+
+        <TextView
+            android:id="@+id/dialogTvID"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:layout_height="20dp"
+            android:layout_width="28dp"
+            android:text="ID"></TextView>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/dialogTvHead3"
+            android:background="@drawable/border"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:text="Полное наименование"></TextView>
+
+        <TextView
+            android:id="@+id/dialogTvName"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:layout_height="20dp"
+            android:layout_width="115dp"
+            android:text="Наименование"></TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/dialogTvHead2"
+            android:background="@drawable/border"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:text="Категория"></TextView>
+
+        <TextView
+            android:id="@+id/dialogTvCategory"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:layout_height="20dp"
+            android:layout_width="81dp"
+            android:text="Категория"></TextView>
+
+    </TableRow>
+
+
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/dialogTvHead4"
+            android:background="@drawable/border"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:text="Вес"></TextView>
+
+        <TextView
+            android:id="@+id/dialogTvWeight"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:layout_height="20dp"
+            android:layout_width="55dp"
+            android:text="Вес"></TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/dialogTvHead5"
+            android:background="@drawable/border"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:text="Количество"></TextView>
+
+        <TextView
+            android:id="@+id/dialogTvQuantity"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:layout_height="20dp"
+            android:layout_width="55dp"
+            android:text="Количество"></TextView>
+    </TableRow>
+
+
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/dialogTvHead7"
+            android:background="@drawable/border"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:text="Дата"></TextView>
+
+        <TextView
+            android:id="@+id/dialogTvDate"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:layout_height="20dp"
+            android:layout_width="55dp"
+            android:text="Размеры"></TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/dialogTvHead8"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:layout_height="20dp"
+            android:layout_width="55dp"
+            android:textAlignment="center"
+            android:background="@drawable/border"
+            android:text="Описание"
+            ></TextView>
+        <TextView
+            android:id="@+id/dialogTvDescription"
+            android:padding="3dp"
+            android:textSize="10dp"
+            android:layout_height="20dp"
+            android:layout_width="55dp"
+            android:textAlignment="center"
+            android:text=""></TextView>
+    </TableRow>
+
+
+
+</TableLayout>

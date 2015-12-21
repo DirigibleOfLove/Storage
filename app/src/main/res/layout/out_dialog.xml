@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="60dp"
+    android:weightSum="1">
+
+    <Spinner
+        android:id="@+id/outDialogSpinner"
+        android:padding="3dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_weight="0.08"></Spinner>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/outDialogQuantity"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Списать всё"
+        android:id="@+id/outDialogButton"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
